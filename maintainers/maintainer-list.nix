@@ -20174,6 +20174,12 @@
     githubId = 7536431;
     name = "Jonas Fierlings";
   };
+  pillowtrucker = {
+    name = "pillowtrucker";
+    email = "pillowtrucker@proton.me";
+    github = "pillowtrucker";
+    githubId = 131599858;
+  };
   pilz = {
     name = "Pilz";
     email = "nix@pilz.foo";

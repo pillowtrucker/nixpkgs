@@ -63,7 +63,10 @@ stdenv.mkDerivation (finalAttrs: {
     description = "Simple and lightweight translator that allows to translate and speak text using Google, Yandex and Bing";
     homepage = "https://invent.kde.org/office/crow-translate";
     license = lib.licenses.gpl3Plus;
-    maintainers = with lib.maintainers; [ sikmir ];
+    maintainers = with lib.maintainers; [
+      sikmir
+      pillowtrucker
+    ];
     platforms = lib.platforms.linux;
     mainProgram = "crow";
   };
